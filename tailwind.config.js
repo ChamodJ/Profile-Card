@@ -2,6 +2,10 @@
 module.exports = {
   content: ["./pages/**/*.html"],
   theme: {
+    fontFamily : {
+      'Kumbh-Sans' : ['Kumbh Sans', 'sans-serif']
+    },
+
     extend: {
       colors : {
         'Dark-cyan': 'hsl(185, 75%, 39%)',
